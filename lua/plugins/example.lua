@@ -98,7 +98,6 @@ return {
     dependencies = {
       "jose-elias-alvarez/typescript.nvim",
       "OmniSharp/omnisharp-vim",
-      "neoclide/coc.nvim",
       init = function()
         require("lazyvim.util").on_attach(function(_, buffer)
           -- stylua: ignore
